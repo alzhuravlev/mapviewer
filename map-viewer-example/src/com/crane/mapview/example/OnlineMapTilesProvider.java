@@ -9,7 +9,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.BitmapFactory.Options;
 import android.util.Log;
 
-import com.crane.mapview.R;
 import com.crane.mapview.Tile;
 import com.crane.mapview.TilesProvider;
 

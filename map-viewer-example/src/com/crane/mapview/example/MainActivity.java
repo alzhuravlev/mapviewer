@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
 
 		setContentView(R.layout.activity_main);
 
-		tilesProvider = new SqliteTilesProvider();
+		tilesProvider = new OnlineMapTilesProvider();
 		tilesProvider.init();
 
 		final MapView mapView = (MapView) findViewById(R.id.map_view);
